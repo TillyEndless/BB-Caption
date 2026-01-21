@@ -33,6 +33,7 @@ git clone https://github.com/TillyEndless/BB-Caption.git
 cd BB-Caption
 
 git clone https://github.com/SYSTRAN/faster-whisper.git
+cd ..
 
 conda create -n whisper python=3.10 -y
 pip install -r requirements.txt
