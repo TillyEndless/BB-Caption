@@ -26,6 +26,18 @@
 
 请参考上述两个上游仓库的官方文档安装 `ffmpeg`, `Python 3.10+`, `BBDown` 等依赖。
 
+quick start:
+```
+git clone https://github.com/TillyEndless/BB-Caption.git
+
+cd BB-Caption
+
+git clone https://github.com/SYSTRAN/faster-whisper.git
+
+conda create -n whisper python=3.10 -y
+pip install -r requirements.txt
+```
+
 ## 使用方法
 
 ### 1. 提取外挂字幕/官方AI字幕
